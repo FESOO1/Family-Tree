@@ -587,3 +587,12 @@ All MEDIA
         transform: translateY(-165px) translateX(40px) scale(11%,11%);
     }
 }
+
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        background: rgb(21,20,25);
+        scroll-behavior: smooth;
+        scroll-padding-top: 110px;
+    }
+}
