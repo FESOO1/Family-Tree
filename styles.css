@@ -259,6 +259,7 @@ fieldset {
     margin: auto;
     margin-bottom: 100px;
     border: none;
+    box-shadow: 0 3px 1px rgb(0, 0, 0);
 }
 
 /*
