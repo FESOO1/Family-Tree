@@ -21,11 +21,12 @@ body {
     flex-direction: column; */
 }
 
-html {
+/* html {
     background: rgb(21,20,25);
     scroll-behavior: smooth;
     scroll-padding-top: 110px;
-}
+} */
+
 
 /* NAVBAR */
 
