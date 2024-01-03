@@ -1,6 +1,6 @@
 // The code that is below is for opening the navbar.
 
-let menu = document.querySelector('.links');
+/* let menu = document.querySelector('.links');
 
 document.querySelector('nav').addEventListener('click', function() {
     menu.style.opacity = '1';
@@ -8,4 +8,11 @@ document.querySelector('nav').addEventListener('click', function() {
 
 document.querySelector('.hidden').addEventListener('click', function() {
     menu.style.opacity = '0';
+}) */
+
+
+const links = document.getElementsByClassName(".links")
+
+document.getElementById("#buttons").addEventlistener("click", () => {
+    links.classList.toggle("open")
 })
