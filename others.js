@@ -11,8 +11,8 @@ document.querySelector('.hidden').addEventListener('click', function() {
 }) */
 
 
-const links = document.getElementsByClassName(".links")
+const links = document.querySelector(".links")
 
-document.getElementById("#button").addEventListener("click", () => {
-    links.classList.toggle(".links");
+document.querySelector(".button").addEventListener("click", () => {
+    links.classList.toggle(".visible");
 })
