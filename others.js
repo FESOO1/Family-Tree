@@ -3,5 +3,9 @@
 let menu = document.querySelector('.links');
 
 document.querySelector('nav').addEventListener('click', function() {
-    menu.style.opacity = '1'
+    menu.style.opacity = '1';
+})
+
+document.querySelector('.hidden').addEventListener('click', function() {
+    menu.style.opacity = '0';
 })

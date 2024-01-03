@@ -493,7 +493,9 @@ address {
     margin-left: 12px;
 } */
 
-
+.hidden {
+    opacity: 0;
+}
 
 /*
 
