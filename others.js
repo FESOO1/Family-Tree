@@ -13,6 +13,6 @@ document.querySelector('.hidden').addEventListener('click', function() {
 
 const links = document.getElementsByClassName(".links")
 
-document.getElementById("#buttons").addEventlistener("click", () => {
-    links.classList.toggle("open")
+document.getElementById("#button").addEventListener("click", () => {
+    links.classList.toggle(".links");
 })

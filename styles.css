@@ -114,10 +114,6 @@ nav:hover .menu::after {
     z-index: -1;
 }
 
-nav .open {
-    display: block;
-}
-
 /* nav:hover .links {
     animation: 200ms linear 1 forwards links;
 }
