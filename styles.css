@@ -72,7 +72,7 @@ nav {
     box-shadow: 0 1.5px 1px black ;
 }
 
-nav:hover .menu {
+/* nav:hover .menu {
     animation: 200ms linear 1 forwards menu-hover;
     box-shadow: 0 0 0;
 }
@@ -86,7 +86,7 @@ nav:hover .menu {
 nav:hover .menu::after {
     animation: 200ms linear 1 forwards menu-hover2;
     box-shadow: 0 0 0;
-}
+} */
 
 @keyframes menu-hover2 {
     from{transform: rotateZ(0deg);}

@@ -1,5 +1,7 @@
-let nav = document.querySelector ('nav');
+// The code that is below is for opening the navbar.
 
-document.querySelector('.links').addEventListener('click', function() {
-    nav.style.appearance = '1'
+let menu = document.querySelector('.links');
+
+document.querySelector('nav').addEventListener('click', function() {
+    menu.style.opacity = '1'
 })
