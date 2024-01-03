@@ -51,6 +51,10 @@ nav {
     border-radius: 5rem;
 }
 
+.nav {
+    padding: 12px;
+}
+
 .menu {
     box-shadow: 0 1.5px 1px black ;
     width: 40px;
@@ -103,20 +107,25 @@ nav:hover .menu::after {
     height: 250px;
     background: rgb(34, 34, 34);
     position: fixed;
-    margin-left: -125px;
-    margin-top: 41px;
-    display: none;
+    margin-left: -135px;
+    margin-top: 30px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     row-gap: 29px;
     /* transform: translateY(-165px) translateX(53px) scale(15%,15%); */
     z-index: -1;
+    opacity: 0;
 }
 
-.visible {
-    display: block;
+.hidden {
+    opacity: 1;
 }
+
+/* .visible {
+    display: block;
+} */
 
 /* nav:hover .links {
     animation: 200ms linear 1 forwards links;
